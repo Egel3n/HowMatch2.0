@@ -2,7 +2,7 @@
 
 HowMatch is a LoveMatching _(according to your names)_ website that allows you to create your own user and track your matches.
 
-It's using is very simple. Write down your name and your crush's name. Then calculate it. It's generate a percentage.
+It's using is very simple. Write down your name and your crush's name. Then hit the calculate, it will generate a percentage.
 
 Technologies That I Used:
 1. Asp.Net Core MVC
