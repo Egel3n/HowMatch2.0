@@ -6,8 +6,12 @@ It's using is very simple. Write down your name and your crush's name. Then calc
 
 Technologies That I Used:
 1. Asp.Net Core MVC
+
 2.Entity Framework
+
 3.SQLite
+
 4.Authorization
+
 5.Validation
 
