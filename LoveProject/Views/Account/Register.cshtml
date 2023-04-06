@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    @model RegisterModel
+    
+    <meta charset="utf-8" />
+    <title> Register </title>
+</head>
+<body>
+
+
+    <h1>Register Page</h1>
+    <form asp-controller="Account" asp-action="Register" method="post">
+        <div asp-validation-summary="All" style="color:red"></div>
+        <label asp-for="FirstName">FirstName</label>
+        <input name="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+        <hr />
+        <label asp-for="LastName">LastName</label>
+        <input asp-for="LastName" name="LastName" />
+        <span asp-validation-for="LastName"></span>
+        <hr />
+        <label asp-for="Password">Password</label>
+        <input asp-for="Password" name="Password"/>
+        <span asp-validation-for="Password"></span>
+        <hr />
+        <label asp-for="RePassword">RePassword</label>
+        <input asp-for="RePassword" name="RePassword"/>
+        <span asp-validation-for="RePassword"></span>
+        <hr />
+        <label asp-for="UserName">UserName</label>
+        <input asp-for="UserName" name="UserName" />
+        <span asp-validation-for="UserName"></span>
+        <hr />
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" name="Email" />
+        <span asp-validation-for="Email"></span>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+</body>
+
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+</html>

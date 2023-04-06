@@ -1,0 +1,26 @@
+﻿@model LoginModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Login </title>
+</head>
+<body>
+
+    <h2>Login</h2>
+
+    <form method="POST" asp-controller="Account" asp-action="Login">
+        <div asp-validation-summary="All" style="color:red"></div>
+        <input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl" />
+        <label>UserName</label>
+        <input type="text" asp-for="UserName"/>
+        <label>Password</label>
+        <input type="password" asp-for="Password"/>
+        <button type="submit">Log In</button>
+    </form>
+
+    <a asp-action="ForgotPassword" asp-controller="Account">Forgot Password</a>
+
+</body>
+</html>
+

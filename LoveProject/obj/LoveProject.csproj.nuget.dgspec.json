@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\LoveProject\\LoveProject.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.dataa\\loveproject.dataa.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.dataa\\loveproject.dataa.csproj",
+        "projectName": "loveproject.dataa",
+        "projectPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.dataa\\loveproject.dataa.csproj",
+        "packagesPath": "C:\\Users\\egege\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.dataa\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\egege\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj": {
+                "projectPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj",
+        "projectName": "loveproject.entityy",
+        "projectPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj",
+        "packagesPath": "C:\\Users\\egege\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\egege\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\LoveProject\\LoveProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\LoveProject\\LoveProject.csproj",
+        "projectName": "LoveProject",
+        "projectPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\LoveProject\\LoveProject.csproj",
+        "packagesPath": "C:\\Users\\egege\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\LoveProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\egege\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.dataa\\loveproject.dataa.csproj": {
+                "projectPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.dataa\\loveproject.dataa.csproj"
+              },
+              "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj": {
+                "projectPath": "C:\\Users\\egege\\Desktop\\WebDev\\dotnet\\HowMatch\\loveproject.entityy\\loveproject.entityy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

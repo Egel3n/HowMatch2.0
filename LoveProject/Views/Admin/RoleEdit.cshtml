@@ -1,0 +1,26 @@
+﻿@model RoleEditModel
+
+
+<form asp-action="RoleEdit" asp-controller="Admin" method="Post">
+    <h3>@Model.RoleName List</h3>
+
+    <h6>Included</h6>
+
+    @foreach (var user in Model.authUsers)
+    {
+
+        <input type="checkbox" name="ToAdds" value="@user.Id" checked/>
+        <label>@user.UserName</label>
+    }
+
+    <h6>Not Included</h6>
+
+    @foreach(var user in Model.allUsers.Except(Model.authUsers))
+    {
+        <input type="checkbox" name="ToAdds" value="@user.Id"/>
+        <label>@user.UserName</label>
+    }
+    <input type="hidden" name="RoleName" value="@Model.RoleName" />
+
+    <button type="submit">Save</button>
+</form>

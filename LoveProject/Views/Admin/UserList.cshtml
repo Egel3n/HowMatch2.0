@@ -1,0 +1,17 @@
+﻿@model List<User>
+
+
+@foreach (var user in @Model)
+{
+    <div style="border:5px">
+        <h4>@user.UserName</h4>
+        <p>Id: @user.Id</p>
+        <p>Mail: @user.Email</p>
+        <p>MailConfirmed: @(user.EmailConfirmed?"Confirmed":"Not Confirmed")</p>
+        <form asp-action="UserEdit" asp-controller="Admin" method="get">
+            <input type="hidden" value="@user.Id" name="userId"/>
+            <button type="submit">Edit</button>
+        </form>
+    </div>  
+}
+

@@ -1,0 +1,26 @@
+﻿
+    <div class="topnav">
+        <a href="/Home/Calculate">Calculate</a>
+        <a href="/Home/List">List</a>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <a href="/Account/Logout">Logout</a>
+        
+        @if(User.IsInRole("Admin"))
+    {
+        <a href="/Admin/UserList">User List</a>
+        <a href="/Admin/EditList">Edit List</a>
+    }
+        <a href="/Account/UserPage" style="color:red">@User.Identity.Name</a>
+    }else
+    {
+        
+        <a href="/Account/Login">login</a>
+        <a href="/Account/Register">Sign Up</a>
+    }
+    
+
+    </div>
+
+

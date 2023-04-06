@@ -1,0 +1,21 @@
+﻿@model RoleModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Role Create</title>
+</head>
+<body>
+
+    <form asp-action="RoleCreate" asp-controller="Admin" method="post">
+        <div asp-validation-summary="All"> </div>
+        <label>Role Name</label>
+        <input asp-for="Name" name="Name"/>
+        <button type="submit">Save Role</button>
+
+
+    </form>
+
+</body>
+</html>

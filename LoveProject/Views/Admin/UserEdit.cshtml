@@ -1,0 +1,19 @@
+﻿@model User
+
+<p> UserId: @Model.Id</p>
+
+<form asp-controller="Admin" asp-action="UserEdit" method="post">
+<label> UserName</label>
+<input type="text" placeholder="@Model.UserName" name="UserName"/>
+
+<label> First Name</label>
+    <input type="text" placeholder="@Model.FirstName" name="FirstName" />
+
+<label> Last Name</label>
+    <input type="text" placeholder="@Model.LastName" name="LastName" />
+
+<label> Mail</label>
+    <input type="text" placeholder="@Model.Email" name="Email" />
+    <input type="hidden" value="@Model.Id" name="Id" />
+    <button type="submit">Save</button>
+</form>
